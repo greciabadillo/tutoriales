@@ -1,14 +1,36 @@
+html{
+    font-size: 62.5%;
+}
 body{
     font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
 }
 
-
-
-
 .contenedor{
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
+    
 
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+h2{
+font-size: 3.4rem;
+}
+
+h3{
+font-size: 3rem;
+}
+
+h4{
+font-size: 2.6rem;
+}
+
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .inicio {
@@ -16,22 +38,38 @@ body{
     background-position: center center;
     background-size: cover;
     height: 100vh;
-    min-height: 600px;
+    min-height: 60rem;
 
 }
+
+.contenido {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+ 
+}
+
+.contenido h1{
+    color: white;
+    max-width: 60rem;
+    padding-bottom: 2rem ;
+    line-height: 2;
+}
+
 
 .barra {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 3rem;
 }
 
 .navegación a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
-    margin-right: 20px;   
+    font-size: 1.8rem;
+    margin-right: 2rem;   
 }
 
 .navegación a :hover {
@@ -40,4 +78,21 @@ body{
 
 .navegación a :last-of-type {
     margin: 0;
+}
+
+.encabezado-nosotros{
+    font-weight: 300;
+    text-align: center;
+}
+.iconos-nosotros{
+    display:flex;
+    justify-content: space-between;
+}
+.icono {
+    flex-basis: calc(33.3%-1rem);
+    text-align: center;
+}
+
+.icono h3 {
+    text-transform: uppercase;
 }
