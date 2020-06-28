@@ -1,5 +1,43 @@
-.site-header.inicio{ 
-    background-color: crimson;
+body{
+    font-family: 'Lato', sans-serif;
 }
- 
-   
+
+
+
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.inicio {
+    background-image: url(../img/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 600px;
+
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.navegación a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;   
+}
+
+.navegación a :hover {
+    color: green;
+}
+
+.navegación a :last-of-type {
+    margin: 0;
+}
