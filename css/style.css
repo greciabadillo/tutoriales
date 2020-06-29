@@ -6,10 +6,15 @@ body{
     font-size: 1.6rem;
 }
 
+img{
+    max-width: 100%;
+    
+}
+
 .contenedor{
     max-width: 120rem;
     margin: 0 auto;
-    
+  
 
 }
 
@@ -31,8 +36,16 @@ font-size: 2.6rem;
 .seccion{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    justify-content: space-between;
 }
 
+.fw-300{
+    font-weight: 300;
+}
+
+.centrar-texto{
+    text-align: center;
+}
 .inicio {
     background-image: url(../img/header.jpg);
     background-position: center center;
@@ -41,6 +54,7 @@ font-size: 2.6rem;
     min-height: 60rem;
 
 }
+
 
 .contenido {
     height: 100%;
@@ -95,4 +109,29 @@ font-size: 2.6rem;
 
 .icono h3 {
     text-transform: uppercase;
+}
+
+.contenedor-anuncio{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.anuncio{
+    flex-basis:calc( 33.3%-1rem) ;
+    border-style: solid;
+    border-color: #b5b5b5;
+    border-width: 1px;
+    background-color: #f5f5f5;
+
+   
+}
+
+.contenido-anuncio{
+    padding: 2rem 4rem ;
+}
+
+.contenido-anuncio h3,
+.contenido-anuncio p {
+    margin: 0;
 }
